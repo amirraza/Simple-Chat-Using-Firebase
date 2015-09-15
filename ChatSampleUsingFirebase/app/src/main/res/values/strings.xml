@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Chat Sample Using Firebase</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="regText"><u>Registered?</u></string>
+</resources>

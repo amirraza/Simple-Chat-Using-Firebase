@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    >
+
+    <RelativeLayout
+        android:id="@+id/lay"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_centerInParent="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+92"
+            android:textSize="19sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"/>
+        <EditText
+            android:id="@+id/regUser"
+            android:hint="Enter Number"
+            android:text="3002361459"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/regPass"
+        android:hint="password"
+        android:text="123"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/lay"
+        />
+
+        <Button
+            android:id="@+id/regBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/regPass"
+            android:layout_centerHorizontal="true"
+            android:text="Go to Chat Room"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/enterbtnbg"/>
+        <TextView
+            android:id="@+id/reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/regText"
+            android:textColor="#ffffff"
+            android:layout_below="@id/regBtn"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+</RelativeLayout>
